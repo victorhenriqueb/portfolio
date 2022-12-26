@@ -12,7 +12,7 @@ header .menu {
   align-items: center;
   gap: 40px;
 }
-.menu-itens a::after{
+.menu-itens a::after {
   content: "";
   display: block;
   width: 100%;
@@ -20,7 +20,7 @@ header .menu {
   background-color: transparent;
 }
 
-.menu-itens a:hover::after{
+.menu-itens a:hover::after {
   content: "";
   display: block;
   width: 100%;
@@ -28,4 +28,37 @@ header .menu {
   background-color: var(--cor-p1);
 }
 
+.menu-mb {
+  display: none;
+}
 
+.botao-menu-mob {
+  display: none;
+}
+
+.menu-itens-mob {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .menu-itens-contato {
+    display: none;
+  }
+  .menu-itens {
+    display: none;
+  }
+  .menu-mb {
+    display: flex;
+    flex-direction: column;
+  }
+  .botao-menu-mob {
+    display: block;
+    position: relative;
+  }
+  .menu-itens-mob {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+  }
+}

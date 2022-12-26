@@ -26,6 +26,12 @@ ul {
   padding: 0px;
 }
 
+button{
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1200px;
   box-sizing: border-box;
