@@ -1,0 +1,14 @@
+/* css global */
+@import url(./global.css);
+
+/* css cores */
+@import url(./cores.css);
+
+/* css tipografia */
+@import url(./tipografia.css);
+
+/* css botoes */
+@import url(./botoes.css);
+
+/* css menu */
+@import url(./menu.css);

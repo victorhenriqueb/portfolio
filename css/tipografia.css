@@ -1,0 +1,95 @@
+.font-1-xxl {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.12;
+}
+
+.font-1-xl {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.font-1-m {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.50;
+}
+
+.font-1-s {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+.font-1-xs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.33;
+}
+
+.font-2-xxl {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.12;
+}
+
+.font-2-xl {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.font-2-xl {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.font-2-xlm {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.font-2-sm {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.50;
+}
+
+.font-2-m {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.50;
+}
+
+.font-2-xs {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.50;
+}

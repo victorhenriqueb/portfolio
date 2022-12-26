@@ -1,0 +1,11 @@
+/* botao sem bg */
+.botao-sembg{
+  padding: 20px 40px;
+  border: 1px solid var(--cor-p1);
+  color: var(--cor-n8);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.50;
+}
