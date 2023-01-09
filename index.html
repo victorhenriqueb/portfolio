@@ -17,39 +17,68 @@
 </head>
 
 <body>
-  <header>
-    <div class="menu container">
-      <div>
-        <a href="./"><img src="./img/logo.svg" alt="logo victor"></a>
-      </div>
-      <nav>
-        <ul class="menu-itens">
-          <li><a class="font-1-s cn-8" href="#projetos">Projetos</a></li>
-          <li><a class="font-1-s cn-8" href="#formacao">Formação</a></li>
-          <li><a class="font-1-s cn-8" href="#experiencia">Experiência</a></li>
-        </ul>
-      </nav>
-      <div class="menu-itens-contato">
-        <a class="botao-sembg cn-8" href="#contato">Contato</a>
+  <header class="container">
+    <nav>
+      <div class="logo">
+        <img src="./img/logo.svg" alt="logo">
       </div>
 
-      <div class="menu-mb">
-        <div class="botao-menu-mob">
-          <button><img src="./img/icones/menu-hamburguer.svg" alt="menu hamburguer"></button>
-        </div>
-
-        <ul class="menu-itens-mob">
-          <li><a class="font-1-s cn-8" href="#projetos">Projetos</a></li>
-          <li><a class="font-1-s cn-8" href="#formacao">Formação</a></li>
-          <li><a class="font-1-s cn-8" href="#experiencia">Experiência</a></li>
-          <li><a class="font-1-s cn-8" href="#contato">Contato</a></li>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item font-1-s cn-8"><a href="#projetos">Projetos</a></li>
+          <li class="nav-item font-1-s cn-8"><a href="#formacao">Formação</a></li>
+          <li class="nav-item font-1-s cn-8"><a href="#experiencia">Experiência</a></li>
         </ul>
       </div>
+
+      <div class="botao-contato">
+        <a class="botao-sembg font-1-m cn-8" href="#contato">Contato</a>
+      </div>
+
+      <div class="menu-mobile-icon">
+        <button onclick="menuShow()"><img class="icon" src="./img/icones/menu-hamburguer.svg" alt="menu-mobile"></button>
+      </div>
+    </nav>
+
+    <div class="menu-mobile">
+      <ul>
+        <li class="nav-item font-1-s cn-8"><a href="#projetos">Projetos</a></li>
+        <li class="nav-item font-1-s cn-8"><a href="#formacao">Formação</a></li>
+        <li class="nav-item font-1-s cn-8"><a href="#experiencia">Experiência</a></li>
+        <li class="nav-item font-1-s cn-8"><a href="#contato">Contato</a></li>
+      </ul>
     </div>
   </header>
 
+  <main class="container">
+    <div class="introducao">
+      <div class="intro-informacao">
+        <h1 class="font-1-xxl cp-8">Olá! Meu nome é Victor Henrique<span class="cp-1">.</span></h1>
+        <p class="font-2-m cp-6">Estudante de <strong>Engenharia de Software</strong>, atualmente
+          desenvolvendo pequenos projetos pessoais utilizando
+          apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> para aplicativos web.</p>
+        <div class="intro-botoes">
+          <a class="botao-combg" href="#contato">Contrate-me</a>
+          <a class="botao-sembg" href="#projetos">Saiba Mais</a>
+        </div>
+        <div class="intro-skills">
+          <h3 class="font-1-xl cp-8">Hard Skills</h3>
+          <ul>
+            <li><img src="./img/icones/icone-html 1.svg" alt="icone-html"></li>
+            <li><img src="./img/icones/icone-css 1.svg" alt="icone-css"></li>
+            <li><img src="./img/icones/icone-javascript 1.svg" alt="icone-javascript"></li>
+            <li><img src="./img/icones/icone-figma 1.svg" alt="icone-figma"></li>
+            <li><img src="./img/icones/icone-github 1.svg" alt="icone-github"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="introducao-foto">
+        <img src="./img/foto-perfil.png" alt="foto de perfil">
+      </div>
+    </div>
+  </main>
 
-
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>

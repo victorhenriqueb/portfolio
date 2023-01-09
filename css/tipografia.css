@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.5rem;
-  line-height: 1.50;
+  line-height: 1.5;
 }
 
 .font-1-s {
@@ -75,7 +75,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.5rem;
-  line-height: 1.50;
+  line-height: 1.5;
 }
 
 .font-2-m {
@@ -83,7 +83,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
-  line-height: 1.50;
+  line-height: 1.5;
 }
 
 .font-2-xs {
@@ -91,5 +91,22 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.50;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .font-1-xxl {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.25;
+  }
+  .font-2-m {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
