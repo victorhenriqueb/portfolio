@@ -6,7 +6,8 @@
 }
 
 .projetos-conteudo{
-  margin-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .projetos-conteudo h2{
@@ -36,6 +37,7 @@
 
 @media(max-width:800px){
   .projetos-conteudo{
-    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 30px;
   }
 }
