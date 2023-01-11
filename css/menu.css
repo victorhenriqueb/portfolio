@@ -5,7 +5,7 @@ nav {
   margin-top: 20px;
 }
 
-.nav-list ul {
+.menu-desk ul {
   display: flex;
   gap: 40px;
 }
@@ -16,6 +16,15 @@ nav {
 
 .menu-mobile {
   display: none;
+}
+
+.menu-desk li{
+  border-bottom: 2px solid transparent;
+}
+
+.menu-desk li:hover{
+  border-bottom: 2px solid var(--cor-p1);
+  transition: 0.2s;
 }
 
 @media (max-width: 800px) {

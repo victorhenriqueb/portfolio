@@ -1,0 +1,41 @@
+.projetos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  overflow: scroll;
+}
+
+.projetos-conteudo{
+  margin-top: 120px;
+}
+
+.projetos-conteudo h2{
+  margin-bottom: 32px;
+}
+
+.projetos-item{
+  background-color: var(--cor-n1);
+  border: 1px solid var(--cor-n3);
+  box-shadow:0px 2px 10px var(--cor-n3) ;
+  padding: 20px;
+}
+
+.dados-repositorio{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.projetos-img { 
+  transition: 0.5s; 
+}
+.projetos-img:hover { 
+  transform: scale(1.1); 
+}
+
+
+@media(max-width:800px){
+  .projetos-conteudo{
+    margin-top: 60px;
+  }
+}

@@ -9,6 +9,7 @@
   font-size: 1.5rem;
   line-height: 1.50;
 }
+
 .botao-combg{
   background-color: var(--cor-p1);
   padding: 20px 40px;
@@ -21,8 +22,12 @@
   line-height: 1.50;
 }
 
+.botao-combg:hover{
+  background-color: var(--cor-p2);
+}
+
 @media(max-width:800px){
-  .botao-combg{
+  .intro-botoes .botao-combg{
     padding: 20px;
     color: var(--cor-n1);
     font-family: "Poppins";
@@ -31,7 +36,7 @@
     font-size: 1rem;
     line-height: 1.25;
   }
-  .botao-sembg{
+  .intro-botoes .botao-sembg{
     padding: 20px;
     font-size: 1rem;
     line-height: 1.25;
