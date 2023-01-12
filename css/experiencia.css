@@ -1,0 +1,32 @@
+.experiencia-bg {
+  background-color: var(--cor-p7);
+}
+
+.experiencia-conteudo {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.experiencia-dados {
+  padding-top: 60px;
+  position: relative;
+}
+
+.experiencia-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 800px) {
+  .experiencia-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .experiencia-dados {
+    grid-row: 1;
+  }
+  .experiencia-img {
+    max-height: 500px;
+  }
+}
