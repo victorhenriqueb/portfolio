@@ -1,16 +1,16 @@
 const formacao = document.querySelectorAll('.formacao-conteudo button');
 
-function mostrarFormacao(event){
-const formar = event.currentTarget;
-const controls = formar.getAttribute("aria-controls");
-const resposta = document.getElementById(controls)
+function ativarFormacao(event){
+  const formar = event.currentTarget;
+  const controls = formar.getAttribute("aria-controls");
+  const situacao = document.getElementById(controls);
+  
+  situacao.classList.toggle('mostrar')
 
-formar.setAttribute('aria-expanded', true);
-resposta.classList.toggle('mostrar');
 }
 
-function ativarFormacao(formar){
-formar.addEventListener('click', mostrarFormacao);
-}
+function eventosFormacao(formar){
+  formar.addEventListener('click',ativarFormacao);
+};
 
-formacao.forEach(ativarFormacao);
+formacao.forEach(eventosFormacao);

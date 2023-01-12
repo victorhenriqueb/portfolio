@@ -44,7 +44,6 @@ background-color:var(--cor-p6) ;
 
 .formacao-conteudo button:hover::after, .formacao-conteudo button[aria-expanded="true"]::after{
 transform: rotate(180deg);
-
 }
 
 .formacao-conteudo dd{
@@ -56,19 +55,16 @@ transform: rotate(180deg);
 }
 
 .formacao-conteudo dd{
-  padding-left: 24px;
+  padding-left: 30px;
   padding-bottom: 8px;
 }
 
-.formacao-definicao{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-content: space-between;
-  align-items: center;
+.formacao-conteudo a:hover{
+  color: var(--cor-n4);
 }
 
-.definicao{
-  text-align: right;
+.formacao-conteudo a{
+  padding: 0;
 }
 
 .formacao-conteudo dl > div {
