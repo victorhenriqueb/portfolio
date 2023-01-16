@@ -5,7 +5,9 @@ function ativarFormacao(event){
   const controls = formar.getAttribute("aria-controls");
   const situacao = document.getElementById(controls);
   
-  situacao.classList.toggle('mostrar')
+  situacao.classList.toggle('mostrar');
+  const ativa = situacao.classList.contains("mostrar")
+  formar.setAttribute("aria-expanded", ativa);
 
 }
 
