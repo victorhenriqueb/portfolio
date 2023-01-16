@@ -8,8 +8,9 @@
   <title>VH Portfólio</title>
   <meta name="description" content="Portfólio contendo todos os projetos do desenvovledor web Victor Henrique.">
 
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" href="./favicon-p.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="icon" href="./favicon-p.svg" width="32" height="32" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +18,10 @@
 </head>
 
 <body>
-  <header class="container">
+  <header class="container fadeInDown" data-anime="200">
     <nav>
       <div class="logo">
-        <img src="./img/logo.svg" alt="logo">
+        <img src="./img/logo.svg" width="104" height="27" alt="logo">
       </div>
 
       <div class="menu-desk">
@@ -36,7 +37,7 @@
       </div>
 
       <div class="menu-mobile-icon">
-        <button onclick="menuShow()"><img class="icon" src="./img/icones/menu-hamburguer.svg" alt="menu-mobile"></button>
+        <button onclick="menuShow()"><img class="icon" src="./img/icones/menu-hamburguer.svg" width="48" height="48" alt="menu-mobile"></button>
       </div>
     </nav>
 
@@ -53,37 +54,37 @@
   <main>
     <div class="introducao-conteudo container">
       <div class="intro-informacao">
-        <h1 class="font-1-xxl cp-8">Olá! Meu nome é Victor Henrique<span class="cp-1">.</span></h1>
-        <p class="font-2-m cp-6">Estudante de <strong>Engenharia de Software</strong>, atualmente
+        <h1 class="font-1-xxl cp-8 fadeInDown" data-anime="400">Olá! Meu nome é Victor Henrique<span class="cp-1">.</span></h1>
+        <p class="font-2-m cp-6 fadeInDown" data-anime="600">Estudante de <strong>Engenharia de Software</strong>, atualmente
           desenvolvendo pequenos projetos pessoais utilizando
           apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> para aplicativos web.</p>
-        <div class="intro-botoes">
+        <div class="intro-botoes fadeInDown" data-anime="600">
           <a class="botao-combg" href="#contato">Contrate-me</a>
           <a class="botao-sembg" href="#projetos">Saiba Mais</a>
         </div>
-        <div class="intro-skills">
+        <div class="intro-skills fadeInDown" data-anime="600">
           <h3 class="font-1-xl cp-8">Hard Skills</h3>
           <ul>
-            <li><img src="./img/icones/icone-html 1.svg" alt="icone-html"></li>
-            <li><img src="./img/icones/icone-css 1.svg" alt="icone-css"></li>
-            <li><img src="./img/icones/icone-javascript 1.svg" alt="icone-javascript"></li>
-            <li><img src="./img/icones/icone-figma 1.svg" alt="icone-figma"></li>
-            <li><img src="./img/icones/icone-github 1.svg" alt="icone-github"></li>
+            <li><img src="./img/icones/icone-html 1.svg" width="32" height="32" alt="icone-html"></li>
+            <li><img src="./img/icones/icone-css 1.svg" width="32" height="32" alt="icone-css"></li>
+            <li><img src="./img/icones/icone-javascript 1.svg" width="32" height="32" alt="icone-javascript"></li>
+            <li><img src="./img/icones/icone-figma 1.svg" width="32" height="32"alt="icone-figma"></li>
+            <li><img src="./img/icones/icone-github 1.svg" width="32" height="32" alt="icone-github"></li>
           </ul>
         </div>
       </div>
-      <div class="introducao-foto">
-        <img src="./img/foto-perfil.png" alt="foto de perfil">
-      </div>
+      <picture class="introducao-foto fadeInDown" data-anime="800">
+        <img src="./img/foto-perfil.png"width="492" height="570" alt="foto de perfil">
+      </picture>
     </div>
   </main>
 
   <article id="projetos">
     <div class="projetos-conteudo container">
-      <h2 class="font-1-xxl cp-8">Esses são meus projetos<span class="cp-1">.</span></h2>
-      <div class="projetos">
+      <h2 class="font-1-xxl cp-8 fadeInDown" data-anime="400">Esses são meus projetos<span class="cp-1">.</span></h2>
+      <div class="projetos fadeInDown" data-anime="600">
         <div class="projetos-item">
-          <a class="projetos-img" href="https://bikcraft-inicial-victorhenrique.netlify.app/"><img src="./img/bikcraft 1.jpg" alt="site bikcraft 1"></a>
+          <a class="projetos-img" href="https://bikcraft-inicial-victorhenrique.netlify.app/"><img src="./img/bikcraft 1.jpg" width="344" height="209" alt="site bikcraft 1"></a>
           <h4 class="font-1-xl cp-8">Bikcraft Inicial</h4>
           <p class="font-2-s cp-6">HTML, CSS.</p><br>
           <div class="dados-repositorio">
@@ -92,7 +93,7 @@
           </div>
         </div>
         <div class="projetos-item">
-          <a class="projetos-img" href="https://bikcraft-victorhenrique.netlify.app/"><img src="./img/bikcraft 2.jpg" alt="site bikcraft 2"></a>
+          <a class="projetos-img" href="https://bikcraft-victorhenrique.netlify.app/"><img src="./img/bikcraft 2.jpg" width="344" height="209" alt="site bikcraft 2"></a>
           <h4 class="font-1-xl cp-8">Bikcraft Final</h4>
           <p class="font-2-s cp-6">HTML, CSS manipulação do DOM com JS.</p><br>
           <div class="dados-repositorio">
@@ -101,7 +102,7 @@
           </div>
         </div>
         <div class="projetos-item">
-          <a class="projetos-img" href="https://portfoliovh.netlify.app/"><img src="./img/portfolio.jpg" alt="site portfólio"></a>
+          <a class="projetos-img" href="https://portfoliovh.netlify.app/"><img src="./img/portfolio.jpg" width="344" height="209" alt="site portfólio"></a>
           <h4 class="font-1-xl cp-8">Portfólio</h4>
           <p class="font-2-s cp-6">Ui Design, HTML, CSS manipulação do DOM com JS.</p>
           <div class="dados-repositorio">
@@ -115,8 +116,8 @@
 
   <article id="formacao" class="formacao-bg">
     <div class="formacao-conteudo container">
-      <h2 class="font-1-xxl cn-1">Qualificações<span class="cp-1">.</span></h2>
-      <div>
+      <h2 class="font-1-xxl cn-1 fadeInDown" data-anime="400">Qualificações<span class="cp-1">.</span></h2>
+      <div class="fadeInDown" data-anime="600">
         <dl>
           <div>
             <dt><button class="font-1-xl cn-1" aria-expanded="true" aria-controls="bacharelado">Bacharelado</button></dt>
@@ -137,26 +138,26 @@
 
   <section aria-label="Experiência" id="experiencia" class="experiencia-bg">
     <div class="experiencia-conteudo container">
-      <div>
+      <div class="fadeInDown" data-anime="800">
         <img class="experiencia-img" src="./img/img-experiencia.jpg" width="463" height="693" alt="homem trabalhando">
       </div>
       <div class="experiencia-dados">
-        <h2 class="font-1-xxl cn-1">Experiência<span class="cp-1">.<span></h2>
-        <p class="font-2-xm cn-2">Ainda estou no início da minha carreira,
+        <h2 class="font-1-xxl cn-1 fadeInDown" data-anime="400">Experiência<span class="cp-1">.<span></h2>
+        <p class="font-2-xm cn-2 fadeInDown" data-anime="400">Ainda estou no início da minha carreira,
           infelizmente não tive uma chance de ingressar em alguma empresa na área da tecnologia, minhas experiências são apenas em empresas fora do ramo! Porém estou aberto para receber propostas, desde estágios, freelancers ou até CLT.</p>
-        <p class="font-2-xm cn-2">Sou um rapaz apaixonado por tecnologia é estou me profissionalizando mais a cada dia, buscando conhecimento e colocando tudo em prática.</p>
-        <p class="font-2-xm cn-2">Caso tenha interesse em meu trabalho só entrar em contato que será um prazer conversar com você !</p>
+        <p class="font-2-xm cn-2 fadeInDown" data-anime="600">Sou um rapaz apaixonado por tecnologia é estou me profissionalizando mais a cada dia, buscando conhecimento e colocando tudo em prática.</p>
+        <p class="font-2-xm cn-2 fadeInDown" data-anime="600">Caso tenha interesse em meu trabalho só entrar em contato que será um prazer conversar com você !</p>
       </div>
     </div>
   </section>
 
   <div class="contato-bg">
     <div class="container" id="contato">
-      <h2 class="font-1-xxl cn-1">Contato<span class="cp-1">.</span></h2>
+      <h2 class="font-1-xxl cn-1 fadeInDown" data-anime="400">Contato<span class="cp-1">.</span></h2>
       <div class="contato">
         <section aria-label="Contato" class="contato-conteudo">
           <div>
-            <address>
+            <address class="fadeInDown" data-anime="600">
               <div class="contato-loc">
                 <h4 class="font-1-m cn-1 contato-titulo">Localização</h4>
                 <p class="font-2-m cn-1 contato-pr">Goiânia - GO</p>
@@ -170,14 +171,15 @@
                 <a class="font-2-m cn-1 contato-link" href="tel:+5562984300408">+55 62 984300408</a>
               </div>
               <div class="contato-redes">
-                <a href="https://www.linkedin.com/in/victor-henrique-559a20247/"><img src="./img/icones/linkedin-icone.svg" alt="icone linkedin"></a>
-                <a href="https://github.com/victorhenriqueb"><img src="./img/icones/git-icone.svg" alt="icone github"></a>
+                <a href="https://www.linkedin.com/in/victor-henrique-559a20247/"><img src="./img/icones/linkedin-icone.svg" width="32" height="32" alt="icone linkedin"></a>
+                <a href="https://github.com/victorhenriqueb"><img src="./img/icones/git-icone.svg" width="32" height="32" alt="icone github"></a>
               </div>
             </address>
           </div>
         </section>
+
         <section class="contato-form" aria-label="Formulário Contato">
-          <form class="form" action="./contato.html">
+          <form class="form fadeInDown" action="./contato.html" data-anime="600">
             <div>
               <label class="font-1-m cp-8" for="nome">Nome</label>
               <input class="font-2-xs cn-3" type="text" id="nome" name="nome">
@@ -202,11 +204,13 @@
   </div>
 
   <footer class="footer footer-bg">
-    <div class="footer-conteudo">
+    <div class="footer-conteudo fadeInDown" data-anime="200">
       <p class="font-1-m cn-1">Victor Henrique © Todos os direitos reservados.</p>
     </div>
   </footer>
 
+  <script src="./js/plugin/simple-anime.js"></script>
+  <script src="./js/plugin/animacao.js"></script>
   <script src="./js/menu.js"></script>
   <script src="./js/formacao.js"></script>
 </body>

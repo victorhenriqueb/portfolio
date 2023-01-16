@@ -4,6 +4,9 @@
 /* css cores */
 @import url(./cores.css);
 
+/* css animacao */
+@import url(./animacao.css);
+
 /* css tipografia */
 @import url(./tipografia.css);
 
