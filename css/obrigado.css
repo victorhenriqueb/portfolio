@@ -1,0 +1,9 @@
+.pag-obrigado{
+  margin-top: 120px;
+  text-align: center;
+}
+
+.pag-obrigado a {
+  padding: 0;
+  text-decoration: underline;
+}
