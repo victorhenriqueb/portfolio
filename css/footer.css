@@ -1,0 +1,8 @@
+.footer-bg{
+  background-color: var(--cor-p7);
+}
+
+.footer-conteudo{
+  text-align: center;
+  padding: 72px;
+}
