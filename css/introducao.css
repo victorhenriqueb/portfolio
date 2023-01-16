@@ -10,6 +10,11 @@
   gap: 12px;
 }
 
+.intro-informacao p{
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
 .intro-skills {
   margin-top: 32px;
 }

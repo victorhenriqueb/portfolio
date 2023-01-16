@@ -8,7 +8,9 @@ body {
 h1,
 h2,
 h3,
-h4,dd {
+h4,
+dd,
+p {
   margin: 0px;
   padding: 0px;
 }
@@ -26,7 +28,7 @@ ul {
   padding: 0px;
 }
 
-button{
+button {
   background-color: inherit;
   border: none;
   cursor: pointer;
@@ -38,4 +40,3 @@ button{
   padding: 0 60px;
   margin: 0 auto;
 }
-
